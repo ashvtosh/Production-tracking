@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   const [orders, setOrders] = useState([])
   const [newOrder, setNewOrder] = useState({ product_name: '', quantity: '' })
-  const API_URL = "http://localhost:8000"
+  const API_URL = "https://production-tracking-two.vercel.app/"
   useEffect(() => {
     fetchOrders()
   }, [])
