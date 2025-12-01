@@ -9,7 +9,7 @@ export default function App() {
   // ⚠️ REPLACE WITH YOUR IP ADDRESS FOUND IN IPCONFIG
   // Example: "http://192.168.1.5:8000"
   // Do NOT use localhost (Android emulator needs 10.0.2.2, physical phone needs 192.168.x.x)
-  const API_URL = "https://production-tracking-two.vercel.app/"; 
+  const API_URL = "https://production-tracking.onrender.com"; 
 
   const fetchOrders = async () => {
     try {
